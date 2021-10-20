@@ -1,0 +1,104 @@
+$marrom: #ab3e02;
+$laranja: #fc6816;
+$rosaClaro: #fdaa7c;
+$bgcolor: #101123;
+$cinzaEscuro: #3a3b50;
+$cinzaClaro: #4f516d;
+$azulCinza: #65668b;
+$ACinzaclaro: #8081a3;
+$Cinzamclaro: #9d9fb8;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lufga';
+}
+body {
+  background-color: $bgcolor;
+}
+@font-face {
+  font-family: 'Lufga';
+  src: url(/fonts/lufga_fonts/Lufga-Medium.otf);
+}
+#topo {
+  width: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.container h1 {
+  color: $laranja;
+}
+a {
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menu a {
+  text-decoration: none;
+  color: #ffffffcb;
+  margin-left: 50px;
+  padding: 5px 10px;
+  font-size: 17px;
+}
+.menu a:hover {
+  color: #fff;
+  transition: 0.5s ease-in;
+}
+.btnMenu {
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: $laranja;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.containerMain {
+  display: flex;
+  max-width: 1090px;
+  margin: 0 auto;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.conteudotxt {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  width: 500px;
+  h1 {
+    font-size: 70px;
+    word-spacing: 10px;
+  }
+  p {
+    color: #ffffffd0;
+    font-size: 23px;
+    word-spacing: 5px;
+  }
+}
+.btnMain {
+  padding: 15px 80px;
+  border-radius: 5px;
+  background-color: $laranja;
+  color: #fff;
+  border: none;
+  margin: 60px 0px;
+  cursor: pointer;
+}
+.conteudoimg {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  width: 560px;
+  justify-content: flex-end;
+}
+.imgConteudo img {
+  width: 500px;
+  border-radius: 20px;
+}
